@@ -1,3 +1,13 @@
+---
+license: mit
+library_name: flax
+tags:
+- jax
+- flax
+- arithmetic
+- transformer
+---
+
 # Basic Arithmetic Transformer from Scratch
 
 A toy ~1.2M parameter Decoder-only Transformer built from scratch using Python, JAX, Flax, and Optax. The model is trained to solve simple arithmetic additions (e.g., predicting the answer string `168` from the input prompt `123+45=`) using character-level tokenization.
