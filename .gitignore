@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+/env/
+/venv/
+ENV/
+
+# Model weights (should not be committed to Git)
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
